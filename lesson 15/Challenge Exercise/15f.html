@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dis {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+
+        .bottom-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background-color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .add-to-cart-button {
+            background-color: white;
+            border: solid black 2px;
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="/shirt.jpg" alt="">
+        </div>
+        <div class="dis">
+            20% off
+        </div>
+        <div class="bottom-overlay">
+            <button class="add-to-cart-button">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
