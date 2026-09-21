@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 8000px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.1); 
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        
+        .name{
+            margin-left: 20px;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .button{
+            position: absolute;
+            border: none;
+            right: 20px;
+        }
+        .b1{
+             font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: rgb(67, 76, 245);
+            margin-right: 10px;
+            padding: 4px 4px;
+            border-radius: 5px;
+            border: none;
+        }
+        .message{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:black;
+            background-color:gray;
+            margin-right: 10px;
+            padding: 4px 4px;
+            border-radius: 5px;
+            border: none;
+            margin-right: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/cat.jpg" alt="">
+        </div>
+        <div class="name">
+            <p>Oliver Cat</p>
+        </div>
+        <div class="button">
+            <button class="b1">Add Friend</button><button class="message">Message</button>
+        </div>
+    </div>
+</body>
+</html>
